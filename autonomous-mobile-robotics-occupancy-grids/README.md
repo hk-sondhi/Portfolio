@@ -16,13 +16,6 @@ This project implements core components of an autonomous mobile robot navigation
 - Custom simulation or interface with Pioneer robot simulator
 - Grid-based mapping logic
 
-
-## How to Run
-1. Open the project in a Java IDE (e.g., Eclipse or IntelliJ).
-2. Compile all `.java` files.
-3. Run `MyAssignmentController.java` as the main entry point.
-4. Visualize the occupancy grid or review logs for robot behavior.
-
 ## Notes
 - The project is structured for educational use (university robotics coursework).
 - The robot’s behavior can be extended by modifying controller logic or grid update algorithms.

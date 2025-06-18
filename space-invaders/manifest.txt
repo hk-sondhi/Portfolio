@@ -1,0 +1,14 @@
+Name				Purpose										Java pattern of principle included												Factory class	Chain responsibility	Open/closed	Single responsibilityAlien.java			Represents an alien with movement and shooting behaviour	Yes			No			Yes		YesAlienColllisonHandler.java	Handles collisions between bullets and regular aliens, 		Yes			Yes			Yes		Yes
+				updating scores and removing game objects if a collision is detectedAlienHitHandler.java		Updates the score when a regular alien is hit			No			Yes			Yes		YesBullet.java			Functionality for bullets, including position, movement, 	No			No			Yes		Yes
+				and ownershipCollisionDetector.java		Detects and delegates collisions between game objects 		Yes			Yes			Yes		Yes
+				using a chain of handlersCollisionHandler.java		Interface to handle collisions in game				No			Yes			Yes		YesGameBoard.java			Visualises the game state, rendering all game objects 		Yes			No			Yes		Yes
+				and player informationGameEngine.java			Manages the game loop, state transitions, and collisions 	Yes			Yes			Yes		Yes
+				and renderingGameObjectFactory.java		Collection of methods to create and initialise aspects of game	Yes			Yes			Yes		YesGameOverScreen.java		Displays the "Game Over" screen with options to restart or exit No			No			No		Yes
+				the gameInputHandler.java		Handles keyboard input events, delegating actions to the player 
+				or bullets using factory-defined actions 			Yes			No			Yes		YesLivesManager.java		Manages the player's lives, decrementing them when necessary 	Yes			No			No		Yes
+				and checking if the game is overMain.java			Initialises the GameEngine to start the game.			No			No			Yes		YesPlayer.java			Represents the player character, including movement, 		Yes			No			Yes		Yes
+				shooting, and state managementPlayerCollisionHandler.java	Handles collisions involving the player, reducing lives if 	No			Yes			Yes		Yes
+				hit by alien bulletsScoreEvent.java			Represents scoring events with types and points associated	No			No			Yes		YesScoreEventHandler.java		Defines methods for handling scoring events and chaining 	No			Yes			Yes		Yes
+				handlersScoreManager.java		Tracks, updates, and resets the player's score			No			No			No		YesShield.java			Represents defensive shields that can be damaged by bullets	No			No			Yes		YesSheildCollisionHandler.java	Manages collisions between bullets and shields, 		No			Yes			Yes		Yes
+				handling damage to shieldsSpecialAlienCollisionHandler.java	Handles collisions between bullets and special aliens,	No			Yes			Yes		Yes
+				 deactivating and scoring if hitSpecialAlienHitHandler.java	Updates the score for special alien hit events			No			Yes			Yes		Yes

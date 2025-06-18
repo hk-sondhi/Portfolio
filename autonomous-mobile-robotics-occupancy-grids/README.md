@@ -1,4 +1,5 @@
 # Autonomous Mobile Robotics - Occupancy Grids (Java)
+# university - 3rd year
 
 ## Overview
 This project implements core components of an autonomous mobile robot navigation system in Java. It simulates or controls a robot navigating through a 2D environment using proximity sensors and an occupancy grid for environment mapping.
@@ -23,7 +24,7 @@ This project implements core components of an autonomous mobile robot navigation
 4. Visualize the occupancy grid or review logs for robot behavior.
 
 ## Notes
-- The project is structured for educational use (e.g., university robotics coursework).
+- The project is structured for educational use (university robotics coursework).
 - The robot’s behavior can be extended by modifying controller logic or grid update algorithms.
 - Sensor input handling can be adapted for real-world sensors or simulators.
 

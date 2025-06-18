@@ -23,5 +23,4 @@ This project is a full recreation of the classic **Space Invaders** arcade game 
 3. Compile the project.
 4. Run `Main.java` to start the game.
 
-## File Structure
 

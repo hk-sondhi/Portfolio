@@ -5,7 +5,7 @@
 This project defines a relational database schema for a retail store system, along with a set of SQL queries and views designed to extract meaningful insights. It models key entities like customers, employees, transactions, items, and promotions.
 
 ## Features
-- Normalized schema with 6 interconnected tables
+- Normalised schema with 6 interconnected tables
 - Foreign key constraints to maintain referential integrity
 - Views that provide:
   - Number of transactions handled by a specific employee

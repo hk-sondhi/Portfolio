@@ -1,6 +1,6 @@
 # Portfolio
 
-A collection of university coursework and personal projects developed throughout my Computer Science degree. Projects are grouped by academic year and module, with a focus on clarity, modularity, and applied problem-solving.
+A collection of university coursework and personal projects developed throughout my Computer Science degree. Projects are grouped by academic year and module.
 
 ---
 
